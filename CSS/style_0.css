@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Mono&display=swap');
+
+body {
+  background-color: #001219;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  /*color: #005F73;*/
+  color: #0A9396;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #005F73;
+  /*color:#0A9396;*/
+  font-size: 25px;
+  margin-top: 0;
+}
+
+main, footer {
+  color: #94D2BD;
+  font-weight: 100;
+  font-size: 25px;
+  word-spacing: 5px;
+  text-align: justify;
+}
+
+footer {
+  text-align: right;
+}
+
+footer a:visited {
+  color: inherit;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border:#D3F3EE 2px solid;
+}
+
+.line {
+  padding-top: 2px;
+  border-bottom: aliceblue dashed 1px;
+}
+
+.title {
+  color: #E9D8A6;
+  font-size: 35px;
+}
+
+.dt#bullet {
+  color:#E9D8A6;
+}
+
+article {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+#list-sub-section {
+  font-size: 22px;
+}
+
+.home-page#index {
+  border: 2px solid #D3F3EE;
+  padding: 30px;
+  margin-top:100px;
+  margin-bottom:100px;
+  margin-left:150px;
+  margin-right:150px;
+}
+
+.home-page#register-button {
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 20px;
+  height:50px;
+  width:150px;
+  margin-top:70px;
+}
+
+marquee {
+  color:white; 
+  border:2px solid seagreen; 
+  padding:10px; 
+  border-radius:30px;
+  margin-top:15px;
+}
+
+#toplogo {
+  margin-bottom: 0;
+}
+
+.image {
+  border: 2px solid #E9D8A6 /*#fcfcfc*/;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.image#pc-img, .image#case-comparison{
+  float: left;
+  margin-right: 15px;
+}
+
+.image#supercomp, .image#mainframe, .image#miniframe, .image#workstation, .image#micro{
+  float: right;
+  margin-left: 15px;
+}
+
+.image#pc-case-full-tower, .image#pc-case-mid-tower, .image#pc-case-mini-tower, .image#pc-case-htpc-and-sff {
+  float: right;
+  margin-left: 15px;
+}
+
+.image#motherboard-config, .image#motherboard-comparison {
+  float: right;
+  margin-left: 15px;
+}
+
+.image#motherboard-miniITX, .image#motherboard-microATX, .image#motherboard-ATX {
+  float: right;
+  margin-left: 15px;
+}
+
+.image#microprocessor {
+  float: left;
+  margin-right:15px;
+}
+
+.image#gpu {
+  float: right;
+  margin-left: 15px;
+}
+
+.image#ram {
+  float: left;
+  margin-right: 15px;
+}
+
+.image#storage {
+  float: right;
+  margin-left: 15px;
+}
+
+.image#psu1 {
+  float: left;
+  margin-right: 15px;
+}
+
+.image#psu2 {
+  float: right;
+  margin-left: 15px;
+}
+
+/*Center Image*/
+.image#center {
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+a:link {
+  color:inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkorchid;
+  text-decoration: none;
+}
+  
+a:hover {
+  color: cadetblue;
+  text-decoration: none;
+}
+  
+a:active {
+  color: darkolivegreen;
+  text-decoration: none;
+}
+
+/*FORMS*/
+.registration-form, .feedback-form{
+  display: inline-flex;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+.form-element {
+  padding:10px;
+}
+
+input[type=text], input[type=number], input[type=password], input[type=radio], input[type=tel], input[type=mail], input[type=date], textarea {
+  font-family: inherit;
+  font-size:medium;
+  font-weight:500;
+  background-color: #D3F3EE;
+}
+
+span.form-option {
+  color:honeydew;
+}
+
+#personal-details {
+  float: left;
+  margin-left: 100px;
+}
+
+#account-info {
+  float: right;
+  margin-right: 50px;
+}
+
+#login-details {
+  display: inline-block;
+  margin-left:33.333333333%;
+  margin-right:33.333333333%;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register your Account | PC Components Encyclopedia</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/style_0.css">
+</head>
+<body>
+  <header>
+    <h1>PC Components Encyclopedia</h1>
+    <h2>Register your Account</h2>
+  </header>
+  <hr>
+  <main>
+    <div class="registration-form" id="personal-details">
+      <form action="login-page.html" method="post">
+      <fieldset>
+        <legend class="title">Enter your Personal Details</legend>
+
+        <section class="form-element">
+        <label for="Fname">First Name: &nbsp;</label>
+        <input type="text" id="Fname" name="Fname" size="50" required><br>
+        </section>
+
+        <section class="form-element">
+        <label for="Lname">Last Name: &nbsp;</label>
+        <input type="text" id="Lname" name="Lname" size="50" required><br>
+        </section>
+
+        <section class="form-element">
+        <label for="gender">Gender: &nbsp;</label>
+        <input type="radio" id="male" name="gender" value="male"><span class="form-option">Male</span>
+        <input type="radio" id="female" name="gender" value="female"><span class="form-option">Female</span>
+        <input type="radio" id="none" name="gender" value="none"><span class="form-option">Prefer not to Say</span><br>
+        </section>
+
+        <section class="form-element">
+        <label for="phone">Phone Number: &nbsp;</label>
+        <input type="tel" id="Phonenum" name="Phonenum" maxlength="10" required><br>
+        </section>
+        
+        <section class="form-element">
+        <label for="email">E-mail: &nbsp;</label>
+        <input type="mail" id="email" name="email" required><br>
+        </section>
+        
+        <section class="form-element">
+        <label for="rec-email">Recovery E-mail: &nbsp;</label>
+        <input type="mail" id="rec-email" name="rec-email"><br>
+        </section>
+        
+        <section class="form-element">
+          <label for="Bday">Birthday: &nbsp;</label>
+          <input type="date" id="Bday" name="Bday"><br>
+        </section>
+        
+        <section class="form-element">
+        <label for="age">Age: &nbsp;</label>
+        <input type="number" id="age" name="age" min="0" max="120" required><br>
+        </section>
+        
+        <section class="form-element">
+        <button><a href="#account-info" style="color: #333">Next</a></button>
+        <input type="reset" id="reset" name="reset"><br>
+        </section>
+
+      </fieldset>
+    </form>
+    </div>
+
+    <div class="registration-form" id="account-info">
+    <form id="account-info" action="login-page.html" method="post">
+      <fieldset>
+        <legend class="title">Enter Account Information</legend>
+
+        <section class="form-element">
+        <label for="Uname">Username: &nbsp;</label>
+        <input type="text" id="Uname" name="Uname" size="50" required><br>
+        </section>
+
+        <section class="form-element">
+        <label for="Pword">Password: &nbsp;</label>
+        <input type="password" id="Pword" name="Pword" maxlength="20" required><br>
+        </section>
+
+        <section class="form-element">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset"><br>
+        </section>
+      </fieldset>
+    </form>
+    </div>
+  </main>
+</body>
+</html>
